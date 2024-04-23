@@ -1,0 +1,11 @@
+#Request
+string wan
+---
+#Response
+string wan
+string Telenor
+string Telia
+string wan1
+string NHL
+string wan2
+string failover
