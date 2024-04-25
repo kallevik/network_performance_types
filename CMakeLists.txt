@@ -16,6 +16,7 @@ add_message_files(
   Bandwidth.msg
   CmdVelTimestamped.msg
   TopicStatistic.msg
+  PeriodicTest.msg
 )
 
 add_service_files(
