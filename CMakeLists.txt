@@ -17,6 +17,7 @@ add_message_files(
   CmdVelTimestamped.msg
   TopicStatistic.msg
   PeriodicTest.msg
+  SmallMessage.msg
 )
 
 add_service_files(
