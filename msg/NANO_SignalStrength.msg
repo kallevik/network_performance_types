@@ -8,25 +8,35 @@ string scell_id
 string pcell_id
 string EARFCN
 int32 band_id
-int32 ULBW
-int32 DLBW
-string TAC
-int32 RSRQ
-int32 RSRP
-int32 RSSI
-int32 SINR
-int32 CQI
-int32 tx_power
-int32 srxlec
+
+int8 LTE_ULBW
+int8 LTE_DLBW
+string LTE_TAC
+int16 LTE_RSRQ
+int16 LTE_RSRP
+int16 LTE_RSSI
+int16 LTE_SINR
+int16 tx_power
+int16 srxlec
+
+int8 LTE_MCS
+int8 LTE_RI
+int8 LTE_CQI
+int16 LTE_PMI
+
 
 # NSA fields
-# Use the same fields as LTE where applicable and add any NSA-specific fields
 
 int32 NR_PCID
 string NR_ARFCN
-int32 NR_RSRP
-int32 NR_RSRQ
-int32 NR_SINR
-int32 NR_BAND
-int32 NR_BANDWIDTH
-int32 NR_SCS
+int16 NR_RSRP
+int16 NR_RSRQ
+int16 NR_SINR
+int16 NR_BAND
+int8 NR_BANDWIDTH
+int16 NR_SCS
+
+int8 NR_MCS
+int8 NR_RI
+int8 NR_CQI
+int16 NR_PMI
