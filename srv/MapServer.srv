@@ -1,4 +1,5 @@
 bool start  # request: true to start mapping, false to stop
+string name # Name of new map "5th_Telia"
 ---
-bool success  # response: did the operation succeed?
-string message  # response: status message
+bool success  
+string message  
