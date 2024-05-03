@@ -1,0 +1,4 @@
+bool start  # request: true to start mapping, false to stop
+---
+bool success  # response: did the operation succeed?
+string message  # response: status message
