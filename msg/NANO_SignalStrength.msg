@@ -26,7 +26,7 @@ int16 LTE_PMI
 
 
 # NSA fields
-
+string MNC
 int32 NR_PCID
 string NR_ARFCN
 int16 NR_RSRP
