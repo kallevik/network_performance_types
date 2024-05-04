@@ -40,3 +40,4 @@ int8 NR_MCS
 int8 NR_RI
 int8 NR_CQI
 int16 NR_PMI
+string message
