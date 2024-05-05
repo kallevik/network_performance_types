@@ -29,6 +29,7 @@ add_service_files(
   MainWan.srv
   Mwan3Status.srv
   MapServer.srv
+  UpdateMessage.srv
 )
 
 generate_messages(
