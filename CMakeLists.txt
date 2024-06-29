@@ -30,6 +30,8 @@ add_service_files(
   Mwan3Status.srv
   MapServer.srv
   UpdateMessage.srv
+  StartPCAP.srv
+  StartSubscriber.srv
 )
 
 generate_messages(
