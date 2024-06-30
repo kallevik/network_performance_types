@@ -32,6 +32,7 @@ add_service_files(
   UpdateMessage.srv
   StartPCAP.srv
   StartSubscriber.srv
+  StartNC.srv
 )
 
 generate_messages(
