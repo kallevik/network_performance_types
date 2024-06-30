@@ -1,4 +1,5 @@
-string filename
+bool start  # true to start capturing, false to stop
+string filename  # filename for the pcap file when starting
 ---
 bool success
 string message
