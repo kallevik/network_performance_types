@@ -1,4 +1,5 @@
-string status
+string action
+string filename
 ---
 bool success
 string message
